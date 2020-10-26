@@ -1,0 +1,40 @@
+#shape-container {
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border: black solid 1px;
+    position: relative; /* absolute positioned children can only move within the relative container they are in */
+}
+
+.rectangle {
+    position: absolute; /* divs are block level elements by default */
+    opacity: 0.6;
+    border: black solid 5px;
+}
+
+.circle {
+    position: absolute;
+    opacity: 0.8;
+    border: black solid 5px;
+}
+
+.square {
+    position: absolute;
+    opacity: 0.8;
+    border: black solid 5px;
+}
+
+.triangle {
+    position: absolute;
+}
+
+.cirButton {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: white;
+}
+
+.triButton {
+    background-color: yellow;
+    border-color: yellow;
+}
